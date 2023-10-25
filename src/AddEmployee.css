@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0px 1px 3px black;
+    font-size: 2rem;
+    flex-wrap: wrap;
+}
+
+.head input{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.filter-button,.remove-filter-button{
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #5783db;
+    border: 1px solid #212121;
+    color: white;
+}
+
+.filter-button{
+    width: 80px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.remove-filter-button{
+    width: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#add-button{
+    width: 160px;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #5783db;
+    box-shadow: 0px 0px 2px black;
+}
+
+.add-employee-dailog{
+    font-size: 1rem;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    transition: all 500ms ease-in-out;
+    overflow: hidden;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #212121;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+}
+
+input{
+    background-color: #4a4a4a;
+    margin: 10px 20px;
+    padding: 12px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+}
+
+input:focus{
+    background-color: white;
+    color: black;
+    outline: none;
+}
+
+label{
+    margin: 18px 20px 3px 20px;
+}
+
+.add-employee-dailog button{
+    margin: 20px 20px;
+    padding: 12px;
+    font-weight: bold;
+    background-color: #5783db;
+    color: white;
+    border-radius: 5px;
+    border: 1px groove #5783db;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
