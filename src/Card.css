@@ -15,7 +15,7 @@
 }
 
 .card:hover{
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 8px black;
     background-color: aliceblue
 }
 
@@ -62,11 +62,17 @@
     border-radius: 20px;
     font-weight: bold;
     color: white;
+    
 }
 
 #edit-button{
     background-color: rgb(34, 190, 34);
     border: 1px groove rgb(34, 190, 34);
+}
+
+#edit-button:hover, #delete-button:hover{
+    background-color: #212121;
+    border: 1px groove #212121;
 }
 
 #delete-button{

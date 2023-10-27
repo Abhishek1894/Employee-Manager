@@ -95,6 +95,8 @@ function EditCard(props)
 
             props.closeEditFun();
             refreshEditSection();
+
+            alert("Employee Record Edidted Successfully");
         }
     }
 
