@@ -11,16 +11,20 @@
     align-items: center;
     background-color: #212121;
     color: white;
-    padding: 15px 20px;
     box-shadow: 0px 1px 3px black;
     font-size: 2rem;
     flex-wrap: wrap;
+}
+
+.head p{
+    margin: 20px 20px 20px 20px;
 }
 
 .head input{
     font-size: 1rem;
     padding: 10px;
 }
+
 
 .filter-button,.remove-filter-button{
     font-size: 1rem;
@@ -41,6 +45,7 @@
     width: 40px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    margin-right: 20px;
 }
 
 
@@ -73,6 +78,14 @@
     color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 4px black;
+}
+
+.add-employee-dailog span{
+    font-size: 0.9rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 36, 36);
+    font-weight: bold;
 }
 
 input{

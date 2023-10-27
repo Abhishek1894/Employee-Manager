@@ -26,7 +26,7 @@ function Card(props)
                     </div>
                 </div>
                 <div style={{display:"flex"}}>
-                    <button id="edit-button">Edit</button>
+                    <button id="edit-button" onClick={()=>{props.editFun(id)}}>Edit</button>
                     <button id="delete-button" onClick={()=>{props.deleteFun(id)}}>Delete</button>
                 </div>
             </div>
